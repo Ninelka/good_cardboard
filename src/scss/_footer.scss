@@ -1,0 +1,16 @@
+.footer {
+    background-color: #1b1b1b;
+
+    p {
+        padding-top: 36px;
+        padding-bottom: 39px;
+        margin-bottom: 0;
+        text-align: center;
+        font-size: 13px;
+        font-family: 'Roboto_light', sans-serif;
+        font-weight: 300;
+        color: $text-color-light;
+        opacity: 0.5;
+        line-height: 17px;
+    }
+}

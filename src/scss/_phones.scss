@@ -1,0 +1,296 @@
+@media (max-width: 576px) {
+    .hidden-mobile {
+        display: none;
+    }
+
+    .section-title {
+        font-size: 22px;
+        line-height: 18px;
+
+        &::after {
+            display: none;
+        }
+    }
+
+    .header {
+        &-logo {
+            background: $active-color url('../img/header/logo-mobile.png') center no-repeat;
+            width: 35px;
+            height: 35px;
+            border-radius: 4px;
+        }
+
+        &-contacts {
+            justify-content: center;
+            &__phone {
+                font-size: 14px;
+                margin: 0;
+
+                &s {
+                    -webkit-flex-direction: column;
+                    -moz-flex-direction: column;
+                    -ms-flex-direction: column;
+                    -o-flex-direction: column;
+                    flex-direction: column;
+                }
+
+                &:first-child {
+                    border-right: none;
+                }
+            }
+
+            &__button {
+                display: inline-block;
+                padding: 9px;
+            }
+        }
+    }
+
+    .main {
+        text-align: center;
+        padding-top: 50px;
+
+        &-text {
+            &__title {
+                font-size: 22px;
+                color: $active-color;
+            }
+
+            &__subtitle {
+                font-size: 18px;
+                margin-bottom: 40px;
+            }
+
+            &__form {
+                background-color: transparent;
+                padding: 10px;
+            }
+        }
+    }
+
+    .overlay {
+        .popup {
+            width: 100%;
+            top: 0;
+            &-title {
+              padding-left: 15px;
+            }
+            &-close {
+              right: 10px;
+              top: 65px;
+            }
+
+            &-form {
+              padding: 35px 10px;
+                &-header {
+
+                    font-size: 22px;
+                    font-weight: 400;
+
+                    span {
+                      display: block;
+                      margin-top: 8px;
+                      font-size: 18px;
+                    }
+                }
+                &__label {
+                  font-size: 18px;
+                }
+
+                &__input {
+                    text-align: center;
+                    width: 100%;
+                    margin-bottom: 10px;
+                }
+            }
+        }
+    }
+
+    .form {
+        display: block;
+
+        &-title {
+            padding-right: 0;
+            font-size: 15px;
+            line-height: 1.4;
+        }
+
+        &__input {
+            display: block;
+            margin-bottom: 13px;
+        }
+    }
+
+    .numbers {
+        &-block {
+            display: block;
+            width: 100%;
+        }
+    }
+
+    .features {
+        &-blocks {
+            -webkit-flex-direction: column;
+            -moz-flex-direction: column;
+            -ms-flex-direction: column;
+            -o-flex-direction: column;
+            flex-direction: column;
+
+        }
+
+        &-block {
+            padding-top: 22px;
+            padding-bottom: 16px;
+            margin: 8px 15px 8px 15px;
+        }
+    }
+    .products {
+        padding-top: 32px;
+        padding-bottom: 20px;
+
+        &-block {
+            img {
+                margin-bottom: 11px;
+            }
+
+            &__title {
+                margin-bottom: 17px;
+            }
+        }
+    }
+
+    .offer {
+        padding-top: 50px;
+        padding-bottom: 52px;
+
+        &-title {
+            font-size: 20px;
+            line-height: 1.2;
+
+            &_small {
+                font-size: 16px;
+                font-family: 'Roboto_light', sans-serif;
+                font-weight: 300;
+            }
+        }
+
+        &-form {
+            label {
+                font-size: 14px;
+            }
+
+            &__input {
+                padding-top: 17px;
+                padding-bottom: 17px;
+            }
+
+            &__button {
+                margin-bottom: 13px;
+            }
+        }
+    }
+
+    .production {
+        padding-top: 28px;
+        padding-bottom: 0;
+        margin: 0 auto;
+
+        &-slider {
+            width: 100%;
+            height: auto;
+            padding: 0;
+
+            &_bottom {
+                margin-top: 22px;
+            }
+        }
+
+        &-text {
+            text-align: center;
+            width: 100%;
+
+            &__title {
+                padding-left: 0;
+            }
+
+            &__descr {
+                margin-top: 17px;
+                text-align: center;
+            }
+        }
+
+        &-arrow-prev,
+        &-arrow-next {
+            top: 6px;
+            height: 100%;
+        }
+    }
+
+    .clients {
+      .row {
+        margin: 0 auto;
+        padding: auto;
+      }
+
+        &-block {
+            box-sizing: border-box;
+            max-width: 142px;
+            padding: 0 auto;
+            margin-right: 6px;
+            margin-left: auto;
+            margin-bottom: 1rem;
+
+            &:nth-child(even) {
+                margin: 0 auto;
+            }
+
+            &__img {
+                -webkit-filter: grayscale(0%);
+                filter: grayscale(0%);
+            }
+        }
+    }
+
+    .feedback {
+        padding-top: 36px;
+        position: relative;
+
+        &-slider {
+            width: 100%;
+        }
+
+        &-arrow-prev,
+        &-arrow-next {
+            position: absolute;
+            color: $text-color-light;
+            background-color: $active-color;
+            top: 30%;
+            width: 22px;
+            height: 78px;
+            margin: 30px;
+        }
+    }
+
+    .contacts {
+        .section-title {
+            display: block;
+            margin-top: 36px;
+            margin-bottom: 19px;
+        }
+
+        &-block {
+            position: static;
+            text-align: center;
+            padding: 0;
+            margin-bottom: 28px;
+        }
+    }
+
+    .footer {
+        margin-bottom: 40px;
+
+        p {
+            font-size: 11px;
+        }
+    }
+}
