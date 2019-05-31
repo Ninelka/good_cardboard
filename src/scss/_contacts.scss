@@ -1,0 +1,29 @@
+.contacts {
+  position: relative;
+  .section-title {
+    display: none;
+  }
+  &-block {
+    position: absolute;
+    left: 25%;
+    top: 15%;
+    background-color: #fff;
+    padding: 25px 34px 31px 65px;
+    z-index: 1;
+    &__title {
+      display: block;
+      font-size: 18px;
+      font-weight: 700;
+      margin-top: 8px;
+    }
+    &__text {
+      margin-bottom: 8px;
+      position: relative;
+      img {
+        position: absolute;
+        left: -30px;
+        top: 5px;
+      }
+    }
+  }
+}
