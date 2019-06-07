@@ -2,7 +2,7 @@
   position: relative;
   padding-top: 65px;
   padding-bottom: 60px;
-  background: #373737 url(../img/main/bg-main.jpg) center no-repeat;
+  background: #373737 url(../img/main/bg-main.webp) center no-repeat;
   -webkit-background-size: cover;
   background-size: cover;
   color: $text-color-light;
@@ -30,7 +30,6 @@
       font-weight: 700;
     }
     &__subtitle {
-      font-family: Roboto_light, sans-serif;
       font-size: 28px;
       font-weight: 300;
     }

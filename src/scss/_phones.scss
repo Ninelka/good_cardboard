@@ -64,6 +64,9 @@
             &__form {
                 background-color: transparent;
                 padding: 10px;
+                input {
+                    text-align: center;
+                }
             }
         }
     }
@@ -169,7 +172,6 @@
 
             &_small {
                 font-size: 16px;
-                font-family: 'Roboto_light', sans-serif;
                 font-weight: 300;
             }
         }
@@ -287,8 +289,6 @@
     }
 
     .footer {
-        margin-bottom: 40px;
-
         p {
             font-size: 11px;
         }
